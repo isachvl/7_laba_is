@@ -1,0 +1,7 @@
+{
+  "verified": true,
+  "spans": 4,
+  "original_trace_id": "tr-53f809ae1e6688834cc3dd6babf42198",
+  "restored_trace_id": "tr-a30d30415bb06057e59d92c01136bea1",
+  "structure_inputs_outputs_status_and_times_match": true
+}

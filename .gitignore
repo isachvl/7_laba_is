@@ -11,3 +11,8 @@ server.log
 server.pid
 analysis/preview/
 mlflow-ui.*
+pipeline.pid
+.laptop/
+.restore_test/
+dashboard.local.html
+diagnostics/

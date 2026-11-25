@@ -1,4 +1,5 @@
 test_actual_scripted_negative_control (test_controls.ControlTests.test_actual_scripted_negative_control) ... ok
+test_fixed_clock_serializes_write_results (test_controls.ControlTests.test_fixed_clock_serializes_write_results) ... ok
 test_truncation_and_marker_keep_budget (test_controls.ControlTests.test_truncation_and_marker_keep_budget) ... ok
 test_benchmark_mismatch_error (test_gate.GateTests.test_benchmark_mismatch_error) ... ok
 test_cost_review (test_gate.GateTests.test_cost_review) ... ok
@@ -10,6 +11,6 @@ test_only_three_protected_review (test_gate.GateTests.test_only_three_protected_
 test_tests_failure_is_fail (test_gate.GateTests.test_tests_failure_is_fail) ... ok
 
 ----------------------------------------------------------------------
-Ran 10 tests in 5.537s
+Ran 11 tests in 5.660s
 
 OK

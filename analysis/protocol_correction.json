@@ -1,0 +1,7 @@
+{
+  "previous_commit": "6eb933cea541ad1e0a02cfe69248f0d6d2df7e14",
+  "error": "FixedDatetime subclass was not supported by YAML serialization of newly written email/file objects.",
+  "fix": "Return ordinary datetime objects with a fixed value; add serialization tests for writing tools.",
+  "retained_local": "diagnostics/protocol_v1",
+  "comparison_rule": "The preliminary technical run is not accepted baseline. All conditions restart under corrected protocol. Gate thresholds, model and prompts unchanged."
+}

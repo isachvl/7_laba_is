@@ -1,0 +1,25 @@
+Local execution of the same check commands configured in .github/workflows/regression.yml. No GitHub-hosted execution is claimed.
+
+COMMAND: D:\project\python\lab7\.venv\Scripts\python.exe -X utf8 -m unittest discover -s tests -v
+test_actual_scripted_negative_control (test_controls.ControlTests.test_actual_scripted_negative_control) ... ok
+test_fixed_clock_serializes_write_results (test_controls.ControlTests.test_fixed_clock_serializes_write_results) ... ok
+test_truncation_and_marker_keep_budget (test_controls.ControlTests.test_truncation_and_marker_keep_budget) ... ok
+test_benchmark_mismatch_error (test_gate.GateTests.test_benchmark_mismatch_error) ... ok
+test_cost_review (test_gate.GateTests.test_cost_review) ... ok
+test_identical_pass (test_gate.GateTests.test_identical_pass) ... ok
+test_loss_not_compensated_by_improvement (test_gate.GateTests.test_loss_not_compensated_by_improvement) ... ok
+test_missing_run_error (test_gate.GateTests.test_missing_run_error) ... ok
+test_one_failure_tolerated_only_by_majority (test_gate.GateTests.test_one_failure_tolerated_only_by_majority) ... ok
+test_only_three_protected_review (test_gate.GateTests.test_only_three_protected_review) ... ok
+test_tests_failure_is_fail (test_gate.GateTests.test_tests_failure_is_fail) ... ok
+test_fixed_sdk_response_and_request_are_unchanged (test_transparency.TransparencyTests.test_fixed_sdk_response_and_request_are_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 5.695s
+
+OK
+EXIT CODE: 0
+
+COMMAND: D:\project\python\lab7\.venv\Scripts\python.exe -X utf8 gate.py eval/base/summary.json eval/candidate/summary.json --report analysis/dashboards/ci_candidate.html
+{"status": "FAIL", "reason": ["Protected task lost"], "protected": ["user_task_1", "user_task_3", "user_task_5", "user_task_7", "user_task_9", "user_task_10", "user_task_13", "user_task_17", "user_task_18", "user_task_21", "user_task_26", "user_task_27", "user_task_29", "user_task_35"], "lost": ["user_task_17", "user_task_26", "user_task_27", "user_task_35"], "new": [], "remaining_drop_tasks": 0.0, "costs": {"base": {"successes": 42, "episodes": 90, "mean_success": 0.4666666666666667, "median_tokens": 12474.0, "median_seconds": 6.158231099999284}, "candidate": {"successes": 30, "episodes": 90, "mean_success": 0.3333333333333333, "median_tokens": 12161.5, "median_seconds": 5.405454949999694}}, "strict": false}
+EXIT CODE: 1

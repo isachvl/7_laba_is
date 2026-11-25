@@ -1,0 +1,80 @@
+{
+  "refreshed": [
+    {
+      "file": "main__aa__user_task_30__r2__s42.json",
+      "early_span_count": 5,
+      "complete_span_count": 10
+    },
+    {
+      "file": "main__aa__user_task_38__r0__s42.json",
+      "early_span_count": 4,
+      "complete_span_count": 9
+    },
+    {
+      "file": "main__aa__user_task_38__r2__s42.json",
+      "early_span_count": 4,
+      "complete_span_count": 9
+    },
+    {
+      "file": "main__base__user_task_30__r2__s42.json",
+      "early_span_count": 5,
+      "complete_span_count": 10
+    },
+    {
+      "file": "main__base__user_task_38__r0__s42.json",
+      "early_span_count": 4,
+      "complete_span_count": 9
+    },
+    {
+      "file": "main__base__user_task_38__r1__s42.json",
+      "early_span_count": 4,
+      "complete_span_count": 9
+    },
+    {
+      "file": "main__base__user_task_38__r2__s42.json",
+      "early_span_count": 4,
+      "complete_span_count": 9
+    },
+    {
+      "file": "main__candidate__user_task_30__r0__s42.json",
+      "early_span_count": 5,
+      "complete_span_count": 10
+    },
+    {
+      "file": "main__candidate__user_task_38__r0__s42.json",
+      "early_span_count": 5,
+      "complete_span_count": 10
+    },
+    {
+      "file": "main__candidate__user_task_38__r1__s42.json",
+      "early_span_count": 5,
+      "complete_span_count": 10
+    },
+    {
+      "file": "main__candidate__user_task_38__r2__s42.json",
+      "early_span_count": 5,
+      "complete_span_count": 10
+    },
+    {
+      "file": "main__fix__user_task_30__r0__s42.json",
+      "early_span_count": 5,
+      "complete_span_count": 10
+    },
+    {
+      "file": "main__fix__user_task_30__r1__s42.json",
+      "early_span_count": 5,
+      "complete_span_count": 10
+    },
+    {
+      "file": "main__fix__user_task_30__r2__s42.json",
+      "early_span_count": 5,
+      "complete_span_count": 10
+    },
+    {
+      "file": "main__fix__user_task_33__r1__s42.json",
+      "early_span_count": 1,
+      "complete_span_count": 6
+    }
+  ],
+  "method": "All 370 same persisted trace IDs read again after evaluator exit and async writer completion. Early snapshots can lack final spans/tags. Existing span IDs, start times and inputs verified unchanged. No generation or outcome changes."
+}

@@ -1,0 +1,71 @@
+{
+  "commit": "219881f7c7aa67095432cc515a883344de325877",
+  "hashes": {
+    "base_agent.py": "603be1ad54ea75b83e6df6060e0656ad47ac6dbafc082161f93fe3174b281683",
+    "instrumented.py": "410a7a0bb8a838af7da6ca703d35834766b236e0ed85cde4482106eb2d030cb8",
+    "clock_control.py": "16520aa7d507b4c4366d824a288a866cd52462a058b8ae5b647c1e69b8c6b206",
+    "eval.py": "1b0ceb1ef5310c31a4e226487b289f293683aa05aa4597072f960e2a6d84b15c",
+    "config.json": "a9ec74d8550084ba3c21705ab220b329f91db2311d6e0fc50562d1012850a5a0",
+    "gate.py": "a3a34934ab01b35c87012641ff9c8e75f3c02c750cc7188fe3c88f58fa31c6e0",
+    "hypothesis.md": "79cc04e22c0621f7c4729844634bbb07fbe1a27c1a149dbdf00a7bd31f06dc18",
+    "prompts/system.txt": "1e414652b06807c19997c3745b58c795f099fd806c2b4a9c4d5fce3b8dbc1f4d",
+    "prompts/plan.txt": "48db24365f5ac25b9f3b9a8f92c5ff8b0a9b2edf119b6066a5e3d7dfdcb4361c",
+    "reference/tools.json": "4764ee99ed8ef66f683c0efba4be22c054e0bd7f0d4c9964f65a5386f6fb59f8"
+  },
+  "model": {
+    "name": "qwen3-4b",
+    "revision": "ae44f08e1392f39c0e474af10c3ff8355c8b6688",
+    "quantization": "Q4_K_M",
+    "weights_sha256": "2fde00ce69dd4899c70d020845e2638353015bba0fdf161b3eb965f2bca4464e"
+  },
+  "server": [
+    "D:\\project\\python\\lab4\\bin\\llama\\llama-server.exe",
+    "-m",
+    "D:/project/python/lab1/models/Qwen_Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+    "--alias",
+    "qwen3-4b",
+    "-c",
+    "16384",
+    "-np",
+    "1",
+    "-ngl",
+    "99",
+    "-t",
+    "8",
+    "-tb",
+    "8",
+    "-b",
+    "128",
+    "-ub",
+    "128",
+    "-fa",
+    "off",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "8084",
+    "--jinja",
+    "--cache-ram",
+    "0"
+  ],
+  "benchmark": "v1.2.2",
+  "generation": {
+    "temperature": 0,
+    "seed": 42,
+    "max_tokens": 1024
+  },
+  "limits": {
+    "context": 16384,
+    "max_calls": 15,
+    "max_tools": 15
+  },
+  "environment_tool_clock": "2026-11-25T12:00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "D:\\project\\python\\lab7\\.venv\\Scripts\\python.exe",
+  "packages": {
+    "agentdojo": "0.1.35",
+    "mlflow": "3.18.0",
+    "openai": "3.46.0",
+    "httpx": "0.28.1"
+  }
+}

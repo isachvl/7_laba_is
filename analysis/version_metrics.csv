@@ -1,0 +1,5 @@
+﻿version,successes,episodes,median_input,median_output,median_total_tokens,median_seconds,median_model_calls,max_context,gate_status
+base,42,90,12171.5,324.0,12474.0,6.158231099999284,3.0,13554,BASE
+aa,42,90,12171.5,324.0,12474.0,6.290535549999731,3.0,13554,PASS
+candidate,30,90,11785.0,296.0,12161.5,5.405454949999694,3.0,6361,FAIL
+fix,33,90,11853.0,303.5,12292.0,6.110001349999948,3.0,7122,FAIL

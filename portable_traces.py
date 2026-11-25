@@ -6,7 +6,7 @@ from mlflow.tracking import MlflowClient
 def import_trace(path,experiment_id):
     source=Trace.from_json(Path(path).read_text(encoding='utf-8'));spans=source.data.spans
     root=next(s for s in spans if s.parent_id is None);client=MlflowClient()
-    def attrs(span):return {k:v for k,v in span.attributes.items() if not k.startswith('mlflow.') or k=='mlflow.chat.tokenUsage'}
+    def attrs(span):return {**{k:v for k,v in span.attributes.items() if not k.startswith('mlflow.') or k=='mlflow.chat.tokenUsage'},'origin_span_id':span.span_id}
     tags={k:v for k,v in source.info.tags.items() if not k.startswith('mlflow.')};tags['origin_trace_id']=source.info.trace_id;tags['restored_from_saved_trace']='True'
     fresh=client.start_trace(name=root.name,span_type=root.span_type,inputs=root.inputs,attributes=attrs(root),tags=tags,experiment_id=experiment_id,start_time_ns=root.start_time_ns)
     mapping={root.span_id:fresh.span_id};pending=[s for s in sorted(spans,key=lambda s:s.start_time_ns) if s.parent_id is not None]

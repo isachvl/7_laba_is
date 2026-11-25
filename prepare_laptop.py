@@ -25,7 +25,7 @@ def main():
     for name in ['base','aa','candidate','fix']:
         summary=read('eval/'+name+'/summary.json');local=copy.deepcopy(summary)
         for row in local['records']:
-            row['trace_id']=mapping[row['trace_id']];row['trace_url']=f"http://127.0.0.1:5006/#/experiments/{exp.experiment_id}/traces?selectedTraceId={row['trace_id']}"
+            row['trace_id']=mapping[row['trace_id']];row['trace_url']=f"http://127.0.0.1:5006/#/experiments/{exp.experiment_id}/traces?traceId={row['trace_id']}"
         copied[name]=local;save('.laptop/eval/'+name+'.json',local)
         existing=client.search_runs([exp.experiment_id],filter_string=f"tags.configuration = '{name}'")
         verdict=gate(copied.get('base',local),local)

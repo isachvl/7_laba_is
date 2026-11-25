@@ -16,3 +16,4 @@ pipeline.pid
 .restore_test/
 dashboard.local.html
 diagnostics/
+.replay/

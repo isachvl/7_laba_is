@@ -1,0 +1,83 @@
+{
+  "method": "Re-render saved requests via apply-template; no generation. First meaningful different model reply per task, ignoring random tool-call IDs.",
+  "checks": [
+    {
+      "task": "user_task_8",
+      "model_call": 3,
+      "rendered_prompts_equal": true,
+      "prompt_sha256": [
+        "93c9020bb657a3f6ddcb933db54de4dfe8ff0f6836d5324fd7ebcd0ccf25b3c6",
+        "93c9020bb657a3f6ddcb933db54de4dfe8ff0f6836d5324fd7ebcd0ccf25b3c6"
+      ],
+      "output_tokens": [
+        145,
+        169
+      ]
+    },
+    {
+      "task": "user_task_12",
+      "model_call": 2,
+      "rendered_prompts_equal": true,
+      "prompt_sha256": [
+        "dcbeeeb620ef7de1612d8e71be822b9aa09878ee62f014b90e909fb1b084c829",
+        "dcbeeeb620ef7de1612d8e71be822b9aa09878ee62f014b90e909fb1b084c829"
+      ],
+      "output_tokens": [
+        249,
+        167
+      ]
+    },
+    {
+      "task": "user_task_20",
+      "model_call": 4,
+      "rendered_prompts_equal": true,
+      "prompt_sha256": [
+        "7c7af404685e46f8fe7b54eaefa2ef0c7c1d295315446fb2695cb05be5a12e7a",
+        "7c7af404685e46f8fe7b54eaefa2ef0c7c1d295315446fb2695cb05be5a12e7a"
+      ],
+      "output_tokens": [
+        123,
+        94
+      ]
+    },
+    {
+      "task": "user_task_24",
+      "model_call": 2,
+      "rendered_prompts_equal": true,
+      "prompt_sha256": [
+        "40b8e4feb8383cb6619371d0be2f253da86540c6fb98fa99ba149707f0661a21",
+        "40b8e4feb8383cb6619371d0be2f253da86540c6fb98fa99ba149707f0661a21"
+      ],
+      "output_tokens": [
+        430,
+        47
+      ]
+    },
+    {
+      "task": "user_task_32",
+      "model_call": 1,
+      "rendered_prompts_equal": true,
+      "prompt_sha256": [
+        "ad25531dbaa1f7b88acd046b98c2719c217743b16c71ff69e6b31a540aaa6850",
+        "ad25531dbaa1f7b88acd046b98c2719c217743b16c71ff69e6b31a540aaa6850"
+      ],
+      "output_tokens": [
+        122,
+        114
+      ]
+    },
+    {
+      "task": "user_task_36",
+      "model_call": 3,
+      "rendered_prompts_equal": true,
+      "prompt_sha256": [
+        "b0bd3ea39469ca81913935150476e0d659586ce7da0660aaa74fa081d2befa55",
+        "b0bd3ea39469ca81913935150476e0d659586ce7da0660aaa74fa081d2befa55"
+      ],
+      "output_tokens": [
+        110,
+        135
+      ]
+    }
+  ]
+}

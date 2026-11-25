@@ -1,7 +1,7 @@
 {
   "verified": true,
   "spans": 4,
-  "original_trace_id": "tr-53f809ae1e6688834cc3dd6babf42198",
-  "restored_trace_id": "tr-a30d30415bb06057e59d92c01136bea1",
+  "original_trace_id": "tr-6f65abc2d0d1ddbe6f31948549b20baa",
+  "restored_trace_id": "tr-4a5687c2b19b93905c6c31860e05e080",
   "structure_inputs_outputs_status_and_times_match": true
 }

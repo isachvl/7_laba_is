@@ -2,3 +2,4 @@ agentdojo==0.1.35
 openai==3.46.0
 httpx==0.28.1
 deepdiff==8.6.1
+jsonschema==4.26.0

@@ -1,0 +1,10 @@
+{
+  "verified": true,
+  "trace_id": "tr-6f65abc2d0d1ddbe6f31948549b20baa",
+  "key": "overhead__on__user_task_0__r0__s42",
+  "spans": 4,
+  "model_calls": 2,
+  "tool_calls": 1,
+  "root_status": "SpanStatus(status_code=<SpanStatusCode.OK: 'OK'>, description='')",
+  "utility": true
+}

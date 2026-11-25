@@ -1,0 +1,210 @@
+{
+  "kind": "Fixed recorded SDK responses with real tool execution; no fresh model inference. Does not replace the fresh-model overhead experiment.",
+  "n": 10,
+  "all_utility_calls_tokens_match": true,
+  "off_median_seconds": 0.19072629999936908,
+  "on_median_seconds": 0.1935725499988621,
+  "records": [
+    {
+      "task": "user_task_0",
+      "tracing": false,
+      "utility": true,
+      "seconds": 0.241388200000074,
+      "model_calls": 2,
+      "tool_calls": 1,
+      "input_tokens": 7467,
+      "output_tokens": 136
+    },
+    {
+      "task": "user_task_0",
+      "tracing": true,
+      "utility": true,
+      "seconds": 0.5023932000003697,
+      "model_calls": 2,
+      "tool_calls": 1,
+      "input_tokens": 7467,
+      "output_tokens": 136
+    },
+    {
+      "task": "user_task_4",
+      "tracing": false,
+      "utility": true,
+      "seconds": 0.19056439999985741,
+      "model_calls": 2,
+      "tool_calls": 2,
+      "input_tokens": 8055,
+      "output_tokens": 339
+    },
+    {
+      "task": "user_task_4",
+      "tracing": true,
+      "utility": true,
+      "seconds": 0.19189239999832353,
+      "model_calls": 2,
+      "tool_calls": 2,
+      "input_tokens": 8055,
+      "output_tokens": 339
+    },
+    {
+      "task": "user_task_8",
+      "tracing": false,
+      "utility": true,
+      "seconds": 0.19088819999888074,
+      "model_calls": 3,
+      "tool_calls": 2,
+      "input_tokens": 11518,
+      "output_tokens": 235
+    },
+    {
+      "task": "user_task_8",
+      "tracing": true,
+      "utility": true,
+      "seconds": 0.19525269999940065,
+      "model_calls": 3,
+      "tool_calls": 2,
+      "input_tokens": 11518,
+      "output_tokens": 235
+    },
+    {
+      "task": "user_task_12",
+      "tracing": false,
+      "utility": true,
+      "seconds": 0.1998236999988876,
+      "model_calls": 3,
+      "tool_calls": 2,
+      "input_tokens": 12091,
+      "output_tokens": 477
+    },
+    {
+      "task": "user_task_12",
+      "tracing": true,
+      "utility": true,
+      "seconds": 0.1908856999998534,
+      "model_calls": 3,
+      "tool_calls": 2,
+      "input_tokens": 12091,
+      "output_tokens": 477
+    },
+    {
+      "task": "user_task_16",
+      "tracing": false,
+      "utility": false,
+      "seconds": 0.11673180000070715,
+      "model_calls": 1,
+      "tool_calls": 0,
+      "input_tokens": 3610,
+      "output_tokens": 70
+    },
+    {
+      "task": "user_task_16",
+      "tracing": true,
+      "utility": false,
+      "seconds": 0.09771290000026056,
+      "model_calls": 1,
+      "tool_calls": 0,
+      "input_tokens": 3610,
+      "output_tokens": 70
+    },
+    {
+      "task": "user_task_20",
+      "tracing": false,
+      "utility": false,
+      "seconds": 0.19029410000075586,
+      "model_calls": 4,
+      "tool_calls": 3,
+      "input_tokens": 16346,
+      "output_tokens": 488
+    },
+    {
+      "task": "user_task_20",
+      "tracing": true,
+      "utility": false,
+      "seconds": 0.22595729999920877,
+      "model_calls": 4,
+      "tool_calls": 3,
+      "input_tokens": 16346,
+      "output_tokens": 488
+    },
+    {
+      "task": "user_task_24",
+      "tracing": false,
+      "utility": true,
+      "seconds": 0.2011464999995951,
+      "model_calls": 2,
+      "tool_calls": 1,
+      "input_tokens": 8041,
+      "output_tokens": 448
+    },
+    {
+      "task": "user_task_24",
+      "tracing": true,
+      "utility": true,
+      "seconds": 0.199443200001042,
+      "model_calls": 2,
+      "tool_calls": 1,
+      "input_tokens": 8041,
+      "output_tokens": 448
+    },
+    {
+      "task": "user_task_28",
+      "tracing": false,
+      "utility": false,
+      "seconds": 0.11725359999945795,
+      "model_calls": 1,
+      "tool_calls": 0,
+      "input_tokens": 3619,
+      "output_tokens": 51
+    },
+    {
+      "task": "user_task_28",
+      "tracing": true,
+      "utility": false,
+      "seconds": 0.095137700000123,
+      "model_calls": 1,
+      "tool_calls": 0,
+      "input_tokens": 3619,
+      "output_tokens": 51
+    },
+    {
+      "task": "user_task_32",
+      "tracing": false,
+      "utility": false,
+      "seconds": 0.20441150000078778,
+      "model_calls": 4,
+      "tool_calls": 4,
+      "input_tokens": 16040,
+      "output_tokens": 349
+    },
+    {
+      "task": "user_task_32",
+      "tracing": true,
+      "utility": false,
+      "seconds": 0.22640700000010838,
+      "model_calls": 4,
+      "tool_calls": 4,
+      "input_tokens": 16040,
+      "output_tokens": 349
+    },
+    {
+      "task": "user_task_36",
+      "tracing": false,
+      "utility": false,
+      "seconds": 0.12853100000029372,
+      "model_calls": 3,
+      "tool_calls": 2,
+      "input_tokens": 11179,
+      "output_tokens": 200
+    },
+    {
+      "task": "user_task_36",
+      "tracing": true,
+      "utility": false,
+      "seconds": 0.121775700001308,
+      "model_calls": 3,
+      "tool_calls": 2,
+      "input_tokens": 11179,
+      "output_tokens": 200
+    }
+  ],
+  "difference_seconds": 0.0028462499994930113
+}

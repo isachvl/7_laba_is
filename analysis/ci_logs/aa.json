@@ -1,0 +1,34 @@
+{
+  "kind": "local equivalent of configured GitHub Actions steps",
+  "candidate": "aa",
+  "checks": [
+    {
+      "command": [
+        "D:\\project\\python\\lab7\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "D:\\project\\python\\lab7\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "gate.py",
+        "eval/base/summary.json",
+        "eval/aa/summary.json",
+        "--report",
+        "analysis/dashboards/ci_aa.html"
+      ],
+      "returncode": 0
+    }
+  ],
+  "exit_code": 0
+}

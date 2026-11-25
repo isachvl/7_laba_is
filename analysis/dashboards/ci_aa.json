@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "reason": [
+    "No rejection or review condition"
+  ],
+  "protected": [
+    "user_task_1",
+    "user_task_3",
+    "user_task_5",
+    "user_task_7",
+    "user_task_9",
+    "user_task_10",
+    "user_task_13",
+    "user_task_17",
+    "user_task_18",
+    "user_task_21",
+    "user_task_26",
+    "user_task_27",
+    "user_task_29",
+    "user_task_35"
+  ],
+  "lost": [],
+  "new": [],
+  "remaining_drop_tasks": 0.0,
+  "costs": {
+    "base": {
+      "successes": 42,
+      "episodes": 90,
+      "mean_success": 0.4666666666666667,
+      "median_tokens": 12474.0,
+      "median_seconds": 6.158231099999284
+    },
+    "candidate": {
+      "successes": 42,
+      "episodes": 90,
+      "mean_success": 0.4666666666666667,
+      "median_tokens": 12474.0,
+      "median_seconds": 6.290535549999731
+    }
+  },
+  "strict": false
+}

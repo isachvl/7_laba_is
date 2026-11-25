@@ -1,0 +1,15 @@
+test_actual_scripted_negative_control (test_controls.ControlTests.test_actual_scripted_negative_control) ... ok
+test_truncation_and_marker_keep_budget (test_controls.ControlTests.test_truncation_and_marker_keep_budget) ... ok
+test_benchmark_mismatch_error (test_gate.GateTests.test_benchmark_mismatch_error) ... ok
+test_cost_review (test_gate.GateTests.test_cost_review) ... ok
+test_identical_pass (test_gate.GateTests.test_identical_pass) ... ok
+test_loss_not_compensated_by_improvement (test_gate.GateTests.test_loss_not_compensated_by_improvement) ... ok
+test_missing_run_error (test_gate.GateTests.test_missing_run_error) ... ok
+test_one_failure_tolerated_only_by_majority (test_gate.GateTests.test_one_failure_tolerated_only_by_majority) ... ok
+test_only_three_protected_review (test_gate.GateTests.test_only_three_protected_review) ... ok
+test_tests_failure_is_fail (test_gate.GateTests.test_tests_failure_is_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 5.537s
+
+OK

@@ -1,0 +1,1 @@
+Create a fixed plan before reading tool results. Return JSON with steps. Each step has tool and purpose. Use 1 to 8 steps. Include required searches, reads, and actions in execution order. A step executes its tool once. Later steps can use results from earlier steps to fill arguments. Finish planning now.

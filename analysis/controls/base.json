@@ -1,0 +1,182 @@
+{
+  "manifest": {
+    "kind": "scripted negative control",
+    "broken": false
+  },
+  "benchmark": "v1.2.2",
+  "runs": 3,
+  "task_ids": [
+    "user_task_1",
+    "user_task_2",
+    "user_task_3",
+    "user_task_7",
+    "user_task_9"
+  ],
+  "records": [
+    {
+      "task": "user_task_1",
+      "run": 0,
+      "utility": true,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.07696390000000974,
+      "model_calls": 0,
+      "tool_calls": 1,
+      "trace_path": ""
+    },
+    {
+      "task": "user_task_2",
+      "run": 0,
+      "utility": true,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.07615189999978611,
+      "model_calls": 0,
+      "tool_calls": 2,
+      "trace_path": ""
+    },
+    {
+      "task": "user_task_3",
+      "run": 0,
+      "utility": true,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.07517300000017713,
+      "model_calls": 0,
+      "tool_calls": 1,
+      "trace_path": ""
+    },
+    {
+      "task": "user_task_7",
+      "run": 0,
+      "utility": true,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.14023920000090584,
+      "model_calls": 0,
+      "tool_calls": 2,
+      "trace_path": ""
+    },
+    {
+      "task": "user_task_9",
+      "run": 0,
+      "utility": true,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.13673000000017055,
+      "model_calls": 0,
+      "tool_calls": 2,
+      "trace_path": ""
+    },
+    {
+      "task": "user_task_1",
+      "run": 1,
+      "utility": true,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.07670729999972536,
+      "model_calls": 0,
+      "tool_calls": 1,
+      "trace_path": ""
+    },
+    {
+      "task": "user_task_2",
+      "run": 1,
+      "utility": true,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.07682470000054309,
+      "model_calls": 0,
+      "tool_calls": 2,
+      "trace_path": ""
+    },
+    {
+      "task": "user_task_3",
+      "run": 1,
+      "utility": true,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.07516579999992246,
+      "model_calls": 0,
+      "tool_calls": 1,
+      "trace_path": ""
+    },
+    {
+      "task": "user_task_7",
+      "run": 1,
+      "utility": true,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.1296050999999352,
+      "model_calls": 0,
+      "tool_calls": 2,
+      "trace_path": ""
+    },
+    {
+      "task": "user_task_9",
+      "run": 1,
+      "utility": true,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.12871090000044205,
+      "model_calls": 0,
+      "tool_calls": 2,
+      "trace_path": ""
+    },
+    {
+      "task": "user_task_1",
+      "run": 2,
+      "utility": true,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.16986090000045806,
+      "model_calls": 0,
+      "tool_calls": 1,
+      "trace_path": ""
+    },
+    {
+      "task": "user_task_2",
+      "run": 2,
+      "utility": true,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.07649459999993269,
+      "model_calls": 0,
+      "tool_calls": 2,
+      "trace_path": ""
+    },
+    {
+      "task": "user_task_3",
+      "run": 2,
+      "utility": true,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.07479830000011134,
+      "model_calls": 0,
+      "tool_calls": 1,
+      "trace_path": ""
+    },
+    {
+      "task": "user_task_7",
+      "run": 2,
+      "utility": true,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.13003149999985908,
+      "model_calls": 0,
+      "tool_calls": 2,
+      "trace_path": ""
+    },
+    {
+      "task": "user_task_9",
+      "run": 2,
+      "utility": true,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.1285027000003538,
+      "model_calls": 0,
+      "tool_calls": 2,
+      "trace_path": ""
+    }
+  ]
+}

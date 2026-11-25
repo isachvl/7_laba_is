@@ -1,0 +1,31 @@
+name: regression
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      candidate:
+        description: Saved candidate summary to compare
+        type: choice
+        options: [candidate, aa, fix]
+        default: candidate
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements-ci.txt
+      - run: python -m unittest discover -s tests -v
+      - name: Regression gate
+        run: python gate.py eval/base/summary.json eval/${{ inputs.candidate || 'candidate' }}/summary.json --report gate_report.html
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: gate-report
+          path: |
+            gate_report.html
+            gate_report.json

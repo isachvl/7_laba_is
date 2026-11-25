@@ -1,0 +1,53 @@
+{
+  "commit": "13e7756a11db9fc5f43611408435d997da9c379d",
+  "hashes": {
+    "agent.py": "7233a2ae2a2dcca4f94db0ec7869e0d3a3a7dd6ab6dd412b7391f06203e5fdbb",
+    "base_agent.py": "603be1ad54ea75b83e6df6060e0656ad47ac6dbafc082161f93fe3174b281683",
+    "faults.py": "57174667280d6bff0cee9dc0c907aa1c5d224b90dc89a83e26771aefdcbe4b1d",
+    "run.py": "a7b545038f5d22dd61fbe14835a51d58c6edf3613d29ad97fe0f26c70b0e8eff",
+    "config.json": "e91a72b0cd04a3e3704178ee9babdaceeeedf71283edd19dffaa925ca1d783d1",
+    "hypothesis.md": "e45bb0e1908b86e8f624f6bebfb37d4920a637ff19200b3845e972e57d171d2a",
+    "prompts\\plan.txt": "48db24365f5ac25b9f3b9a8f92c5ff8b0a9b2edf119b6066a5e3d7dfdcb4361c",
+    "prompts\\system.txt": "1e414652b06807c19997c3745b58c795f099fd806c2b4a9c4d5fce3b8dbc1f4d"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "D:\\project\\python\\lab4\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "agentdojo": "0.1.35",
+    "openai": "3.46.0",
+    "httpx": "0.28.1",
+    "deepdiff": "8.6.1"
+  },
+  "server_command": [
+    "D:\\project\\python\\lab4\\bin\\llama\\llama-server.exe",
+    "-m",
+    "D:/project/python/lab1/models/Qwen_Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+    "--alias",
+    "qwen3-4b",
+    "-c",
+    "16384",
+    "-np",
+    "1",
+    "-ngl",
+    "99",
+    "-t",
+    "8",
+    "-tb",
+    "8",
+    "-b",
+    "128",
+    "-ub",
+    "128",
+    "-fa",
+    "off",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "8084",
+    "--jinja",
+    "--cache-ram",
+    "0"
+  ],
+  "source_model": "2fde00ce69dd4899c70d020845e2638353015bba0fdf161b3eb965f2bca4464e"
+}

@@ -1,0 +1,19 @@
+{
+  "model": "qwen3-4b",
+  "base_url": "http://127.0.0.1:8084/v1",
+  "context": 16384,
+  "max_calls": 15,
+  "max_tools": 15,
+  "max_tokens": 1024,
+  "temperature": 0,
+  "seed": 42,
+  "benchmark": "v1.2.2",
+  "runs": 3,
+  "truncate_chars": 2000,
+  "gate": {
+    "minimum_protected": 5,
+    "cost_growth": 0.25,
+    "time_growth": 0.25,
+    "remaining_drop_tasks": 1
+  }
+}
